@@ -43,20 +43,28 @@ The exercises showcase core skills in **DNS management, troubleshooting, and loc
 ---
 
 ### **2. Local DNS Cache Exercise**  
-- Modified the A-record on **DC-1** to point `mainframe` → `8.8.8.8`.  
-- From **Client-1**, pinging `mainframe` still resolved to the old IP.  
+- Modified the A-record on **DC-1** to point `mainframe` → `8.8.8.8`.
+  <img width="1304" height="717" alt="Go back to DC-1 and change mainframe’s record address to 8 8 8 8" src="https://github.com/user-attachments/assets/c51ccc25-c09d-4dce-8e31-5f2e88ce2969" />
+
+- From **Client-1**, pinging `mainframe` still resolved to the old IP.
+  <img width="648" height="339" alt="Go back to Client-1 and ping “mainframe” again  Observe that it still pings the old address" src="https://github.com/user-attachments/assets/48394099-b00f-47bc-a22e-9ae426ed9574" />
+
 - Displayed cache with:  
   ```bash
   ipconfig /displaydns
-  ```  
+  ```
+  <img width="474" height="237" alt="Observe the local dns cache" src="https://github.com/user-attachments/assets/c1712db8-d365-4ad8-951e-d0339eacb236" />
+
 - Flushed cache with:  
   ```bash
   ipconfig /flushdns
   ```  
-- Verified the cache was empty.  
+- Verified the cache was empty.
+  <img width="1041" height="505" alt="Flush the DNS cache and Observe that the cache is empty" src="https://github.com/user-attachments/assets/3d4debe9-3083-4538-b4e7-99f5d08e4a7b" />
+ 
 - Re-pinged `mainframe` → now resolved to `8.8.8.8`.  
-
-📸 *[Screenshot placeholder: DNS cache before/after flush]*  
+ <img width="585" height="286" alt="Attempt to ping “mainframe” again" src="https://github.com/user-attachments/assets/3a5b3336-4a3d-460a-8825-9f1849f2fcec" />
+ 
 
 ---
 
