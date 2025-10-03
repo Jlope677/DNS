@@ -89,15 +89,22 @@ The exercises showcase core skills in **DNS management, troubleshooting, and loc
 ---
 
 ### **3. CNAME Record Exercise**  
-- On **DC-1**, created a **CNAME record** that mapped `search` → `www.google.com`.  
+- On **DC-1**, created a **CNAME record** that mapped `search` → `www.google.com`.
+  <img width="977" height="721" alt="Go back to DC-1 and create a CNAME record that points the host “search” to “www google com”" src="https://github.com/user-attachments/assets/87716731-b2d1-4a75-829d-dc30be85dd02" />
+  <img width="553" height="600" alt="Go back to DC-1 and create a CNAME record that points the host “search” to “www google com”(2)" src="https://github.com/user-attachments/assets/85e12554-a6ac-412f-a4f5-acccd661c079" />
+  <img width="984" height="704" alt="Go back to DC-1 and create a CNAME record that points the host “search” to “www google com”(3)" src="https://github.com/user-attachments/assets/611201ca-2d78-4400-8a90-b23a3f040301" />
+
 - From **Client-1**, ran:  
   ```bash
   ping search
   nslookup search
   ```  
 - Verified results → the CNAME successfully redirected to Google.  
+<img width="565" height="265" alt="Go back to Client-1 and attempt to ping “search”, observe the results of the CNAME record" src="https://github.com/user-attachments/assets/4f6aebfd-3979-46a7-9152-369d8d0f3e69" />
+<img width="442" height="350" alt="On Client-1, nslookup “search”, observe the results of the CNAME record" src="https://github.com/user-attachments/assets/f7266fd9-7a6d-4f3d-b7e9-699a3a813b18" />
 
-📸 *[Screenshot placeholder: CNAME creation → ping/nslookup results]*  
+
+ 
 
 ---
 ## 🚀 What I Learned  
