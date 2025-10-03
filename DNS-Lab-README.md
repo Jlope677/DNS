@@ -17,7 +17,27 @@ The exercises showcase core skills in **DNS management, troubleshooting, and loc
 
 ---
 
+## 📝 Notes  
 
+### 1. Local DNS Cache  
+<img width="1817" height="954" alt="Local DNS Cache Notes" src="https://github.com/user-attachments/assets/97d2120b-59a8-4b17-93b2-3a622a13b9c2" />  
+
+---
+
+### 2. Local Host File  
+- Editing the `hosts` file to test name resolution behavior.  
+
+<img width="1111" height="784" alt="Local Host File - Part 1" src="https://github.com/user-attachments/assets/7ae68966-75cd-4922-b0d7-21441a157873" />  
+<img width="1173" height="762" alt="Local Host File - Part 2" src="https://github.com/user-attachments/assets/fe50b639-0e0d-4708-9413-b3a6cfdff965" />  
+<img width="1167" height="735" alt="Local Host File - Part 3" src="https://github.com/user-attachments/assets/4ad5bde8-06ff-4450-9964-d0e8e0c580f8" />  
+<img width="1591" height="887" alt="Local Host File - Part 4" src="https://github.com/user-attachments/assets/50505cdc-b9e8-45df-8849-ace0bc328a10" />  
+
+---
+
+### 3. DNS Server  
+- **DC-1 Private IP:** `10.0.0.5`  
+
+---
 ## 🛠️ Demonstration  
 
 ### **1. A-Record Exercise**  
@@ -80,7 +100,6 @@ The exercises showcase core skills in **DNS management, troubleshooting, and loc
 📸 *[Screenshot placeholder: CNAME creation → ping/nslookup results]*  
 
 ---
-
 ## 🚀 What I Learned  
 - How to create and test **A-records** and **CNAME records** in Active Directory DNS.  
 - How **local DNS cache** can retain outdated records and how to flush it.  
@@ -89,9 +108,5 @@ The exercises showcase core skills in **DNS management, troubleshooting, and loc
 
 ---
 
-## 📂 Repository Layout  
-```
-DNS-Lab/
-│── screenshots/   # My captured images from the lab
-│── README.md      # This file
+
 ```
