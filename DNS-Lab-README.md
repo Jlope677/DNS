@@ -114,6 +114,3 @@ The exercises showcase core skills in **DNS management, troubleshooting, and loc
 - Reinforced real-world system administration tasks that are critical in enterprise IT.  
 
 ---
-
-
-```
