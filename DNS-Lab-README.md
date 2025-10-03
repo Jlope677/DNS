@@ -15,6 +15,8 @@ I worked with two virtual machines:
 
 The exercises showcase core skills in **DNS management, troubleshooting, and local caching**, which are essential for system administrators and network engineers.  
 
+---
+
 ## 📝 Notes  
 
 ### 1. Local DNS Cache  
